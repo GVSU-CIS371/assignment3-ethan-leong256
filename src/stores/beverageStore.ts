@@ -3,7 +3,7 @@ import tempretures from "../data/tempretures.json";
 import bases from "../data/bases.json";;
 import creamers from "../data/creamers.json";
 import syrups from "../data/syrups.json";
-import type { BaseBeverageType, CreamerType, SyrupType, BeverageType } from "../types/beverage";
+import type { BeverageType } from "../types/beverage";
 
 export const useBeverageStore = defineStore("BeverageStore", {
   state: () => ({

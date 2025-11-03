@@ -27,7 +27,7 @@ import Hot from "./Hot.vue";
 import Cold from "./Cold.vue";
 import type { BaseBeverageType, CreamerType, SyrupType } from "../types/beverage";
 
-const props = defineProps<{
+defineProps<{
   isIced: boolean;
   base: BaseBeverageType;
   cream: CreamerType;

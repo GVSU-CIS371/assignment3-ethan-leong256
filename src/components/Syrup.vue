@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 import type { SyrupType } from '../types/beverage';
-const props = defineProps<{
+defineProps<{
   // defineProps declares expected props automatically 
   // handling changes to the object
   syrup: SyrupType;
